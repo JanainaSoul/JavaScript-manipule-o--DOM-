@@ -17,6 +17,8 @@
 **Percorrendo a árvore do DOM;**
 
 **Como o DOM funciona;**
+![image](https://user-images.githubusercontent.com/104031152/222568999-cdb05f14-ded3-4c29-8ff8-3a0676abf091.png)
+
 
 **Faça como eu fiz;**
 
