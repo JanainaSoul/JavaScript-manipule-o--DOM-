@@ -1,7 +1,7 @@
 ## JavaScript-manipule-o-DOM
  JavaScript na Web: manipule o DOM com JavaScript - Alura
  
- ## Conteudo:
+## Conteudo:
  
 01. Conhecendo o DOM:
 
