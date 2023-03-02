@@ -34,4 +34,11 @@ document.querySelectorAll(seletor) devolve todos os seletores com o mesmo nome
 
 **O que aprendemos?**
 
+Percorrer a árvore do DOM
+
+Utilizar o querySelector para selecionar elementos da árvore do DOM
+
+Funcionamento da estrutura do DOM
+
+
 
