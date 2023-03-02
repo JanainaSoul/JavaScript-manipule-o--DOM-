@@ -1,25 +1,26 @@
 ## JavaScript-manipule-o-DOM
+
  JavaScript na Web: manipule o DOM com JavaScript - Alura
- 
+
 ## Conteudo:
- 
-01. Conhecendo o DOM:
 
-Introdução;
+**<u>1- Conhecendo o DOM:</u>**
 
-Projeto inicial do curso;
+**Introdução;**
 
-Criando tarefa no HTML;
+**Projeto inicial do curso;**
 
-Manipulando o DOM;
+**Criando tarefa no HTML;**
 
-Percorrendo a árvore do DOM;
+**Manipulando o DOM;**
 
-Como o DOM funciona;
+**Percorrendo a árvore do DOM;**
 
-Faça como eu fiz;
+**Como o DOM funciona;**
 
-Para saber mais - Selecionando Elementos;
+**Faça como eu fiz;**
+
+**Para saber mais - Selecionando Elementos;**
 
 Utilizamos o método querySelector para percorrer a árvore do DOM e encontrar o elemento que queremos utilizando JavaScript. Porém existem outros métodos que podem ser utilizados para o mesmo fim.
 
@@ -31,4 +32,6 @@ document.getElementsByTagName(‘tag’) retorna um array dos elementos pelo nom
 
 document.querySelectorAll(seletor) devolve todos os seletores com o mesmo nome
 
-O que aprendemos?
+**O que aprendemos?**
+
+
