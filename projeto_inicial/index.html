@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BioRhyme&amp;family=Space+Mono&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <title>Ceep</title>
@@ -16,19 +16,19 @@
       </h1>
   
       <form class="form" action="">
-        <input class="form-input" type="text">
-        <button class="form-button"> Novo Item </button>
+        <input class="form-input" type="text" data-form-input>
+        <button class="form-button" data-form-button> Novo Item </button> <!--data atributtes-->
       </form>
 
 
-      <ul class="list">
-        <li class="task">
-          <p class="content">
-            comprar um abacate
+      <ul class="list" data-list>
+        
+      </ul>
           </p>
         </li>
       
       </ul>
     </div>
+    <script type = "module" src="main.js"> </script>
 </body>
 </html>
