@@ -28,41 +28,41 @@ novaTarefa.addEventListener('click', criarTarefa);
 
 //criar componente - uma parte do todo -> varios componentes criam a aplicação
 //criar botão 
-//     const BotaoConclui = ()=>{
-//     const botaoConclui = document.createElement('button');
+    const BotaoConclui = ()=>{
+    const botaoConclui = document.createElement('button');
 
-//     botaoConclui.classList.add('check-button');
-//     botaoConclui.innerText = ' concluir';
+    botaoConclui.classList.add('check-button');
+    botaoConclui.innerText = ' concluir';
 
-//     botaoConclui.addEventListener('click',concluirTarefa);     // caso alguem clique vai acontecer uma ação
+    botaoConclui.addEventListener('click',concluirTarefa);     // caso alguem clique vai acontecer uma ação
 
-//     return botaoConclui; // retorna o botao
-// }
+    return botaoConclui; // retorna o botao
+}
 
-// const concluirTarefa = (evento)=> {
-//     const botaoConclui = evento.target  //alvo do evento - sobe um no na arvore do DOM
+const concluirTarefa = (evento)=> {
+    const botaoConclui = evento.target  //alvo do evento - sobe um no na arvore do DOM
 
-//     const tarefaCompleta = botaoConclui.parentElement;
+    const tarefaCompleta = botaoConclui.parentElement;
 
-//     tarefaCompleta.classList.toggle('done'); //executar a classe css no momento q clica no botao
+    tarefaCompleta.classList.toggle('done'); //executar a classe css no momento q clica no botao
 
-// }
-// const BotaoDeDeleta = () =>{ //componentes começam com letra maiscula
-//     const botaoDeleta = document.createElement('button');
+}
+const BotaoDeDeleta = () =>{ //componentes começam com letra maiscula
+    const botaoDeleta = document.createElement('button');
 
-//     botaoDeleta.innerText = 'deletar';
-//     botaoDeleta.addEventListener('click', deletarTarefa)
+    botaoDeleta.innerText = 'deletar';
+    botaoDeleta.addEventListener('click', deletarTarefa)
 
-//     return botaoDeleta;
-// }
+    return botaoDeleta;
+}
 
-// const deletarTarefa = (evento)=>{
-//     const botaoDeleta = evento.target;
+const deletarTarefa = (evento)=>{
+    const botaoDeleta = evento.target;
 
-//     const tarefaCompleta = botaoDeleta.parentElement; //elemento pai do botão é a li
+    const tarefaCompleta = botaoDeleta.parentElement; //elemento pai do botão é a li
 
-//     tarefaCompleta.remove();
+    tarefaCompleta.remove();
 
-//     return botaoDeleta;
-// }
-//})(); // encapsula o código
+    return botaoDeleta;
+}
+ // encapsula o código
